@@ -1,0 +1,18 @@
+1. pip install djangorestframework 
+2. add rest_framework to installed app in settings.py 
+3. default_permission_access is used for read-only access for unauthenticated users 
+4. make app api , register in settings.py 
+5. make company model then company serializer 
+6. set views of api (app)
+7. set up urls of api 
+
+8. employee api now 
+9. create model 
+10. serializer for employee 
+11. update views 
+12. route in urls.py 
+model -> view -> url 
+
+creating custom api 
+for example - cpmapnies/{company_id}/employees - will return us company ke sab employees 
+define in views in company view set 
